@@ -1,0 +1,57 @@
+class Assigment1
+{
+	public static void main(String[] args)
+	{
+		ArrayList<Integer> arr1=new ArrayList<Integer>();
+
+	        int i=0;
+        
+		arr1.add(20);
+        
+		arr1.add(30);
+        
+		arr1.add(40);
+        
+		
+		System.out.println("Hello, World!");
+        
+		System.out.println(arr1.size());
+        
+		System.out.println("While Loop:");
+        
+        
+		for(i=0;i<arr1.size();i++)
+        
+		{
+            
+			System.out.println(arr1.get(i));
+        
+		}
+
+        
+        System.out.println("Advanced For Loop:");
+
+	        for(Integer x:arr1)
+	
+        {
+	
+            System.out.println(x);
+
+	        }
+
+        
+        i=0;
+
+	        System.out.println("While Loop:");
+
+	        while(arr1.size()>i)
+
+	        {
+
+	            System.out.println(arr1.get(i));
+
+	            i++;
+
+	        }
+	}
+}
